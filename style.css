@@ -102,6 +102,7 @@ span {
 
 .home-img img {
   width: 25vw;
+  margin-left: 10px;
   border-radius: 50%;
   animation: floatImage 4s ease-in-out infinite;
 }
@@ -169,10 +170,11 @@ span {
 }
 
 .about-img img {
-  width: 35vw;
-  height: 75vh;
+  width: 30vw;
+  height: 65vh;
   margin-bottom: 3rem;
   border-radius: 50%;
+  margin-right: 20px;
 }
 
 .heading {
@@ -441,6 +443,12 @@ span {
     display: block;
   }
 
+  .navbar a {
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+  }
+
   .home {
     flex-direction: column;
   }
@@ -469,6 +477,7 @@ span {
   .about-img img {
     width: 80vw;
     margin-top: 4rem;
+    margin-right: auto;
   }
 
   .services h2 {
